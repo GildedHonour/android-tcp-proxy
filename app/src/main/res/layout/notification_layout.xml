@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:layout_marginBottom="16dp"
+            />
+
+        <TextView
+            android:id="@+id/clientsCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clients: 0"
+            android:layout_marginBottom="16dp"
+            />
+
+        <TextView
+            android:id="@+id/bytesReceived"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Received: 0 B" />
+
+        <TextView
+            android:id="@+id/bytesSent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sent: 0 B" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Stop"
+        android:layout_marginTop="4dp"/>
+
+</LinearLayout>
